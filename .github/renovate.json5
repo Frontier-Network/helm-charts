@@ -1,0 +1,10 @@
+{
+  extends: [
+    "github>bjw-s/renovate-config",
+    "github>bjw-s/renovate-config:automerge-github-actions",
+  ],
+  platform: "github",
+  username: "robofrontier[bot]",
+  gitAuthor: "robofrontier[bot] <112586633+robofrontier[bot]@users.noreply.github.com>",
+  repositories: ["frontier-network/helm-charts"],
+}

@@ -1,0 +1,77 @@
+---
+site_name: Frontier-Network | Helm charts | Docs
+site_description: Docs for the Frontier-Network Helm charts repository
+site_author: Frontier-Network
+site_url: https://frontier-network.github.io/helm-charts/docs
+
+repo_name: Frontier-Network/helm-charts
+repo_url: https://github.com/frontier-network/helm-charts
+edit_uri: ""
+
+theme:
+  name: material
+  icon:
+    repo: fontawesome/brands/github-alt
+  language: en
+  features:
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+  palette:
+    - scheme: default
+      primary: blue
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      primary: blue
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+docs_dir: ../../docs
+site_dir: ../../_site
+
+plugins:
+  - search
+  - minify:
+      minify_html: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/frontier-network
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/TjmzMG533x
+
+markdown_extensions:
+  - admonition
+  - abbr
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - md_in_html
+  - pymdownx.highlight
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.superfences
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Common Library:
+      - Introduction: common-library/introduction.md
+      - Common Storage: common-library/common-library-storage.md
+      - Common Add-ons: common-library/common-library-add-ons.md
+  - App Template:
+      - Introduction: app-template/introduction.md

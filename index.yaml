@@ -1,0 +1,20 @@
+apiVersion: v1
+entries:
+  fnt-corebot:
+  - apiVersion: v2
+    created: "2022-12-12T21:29:10.039604853Z"
+    dependencies:
+    - name: common
+      repository: https://bjw-s.github.io/helm-charts
+      version: 1.2.0
+    description: Corebot for Frontier-MC
+    digest: 38ef0dd34321ef52925b70a9b59f190afb24fe1752409ade94ddc92f2bf3c1e9
+    kubeVersion: '>=1.22.0-0'
+    maintainers:
+    - email: hello@chipwolf.uk
+      name: ChipWolf
+    name: fnt-corebot
+    urls:
+    - https://frontier-network.github.io/helm-charts/apps/fnt-corebot-1.0.0.tgz
+    version: 1.0.0
+generated: "2022-12-12T21:29:10.033398248Z"
